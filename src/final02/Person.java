@@ -24,4 +24,12 @@ public abstract class Person {
      */
     public Person() {
     }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
 }

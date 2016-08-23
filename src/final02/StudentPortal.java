@@ -5,6 +5,21 @@ package final02;
  * @version 1.0
  */
 public class StudentPortal {
+    private Professor professor;
+    private Instructor instructor;
+    private Student student;
+    private Module module;
+    private Lecture lecture;
+    private Exercise exercise;
+
+    public StudentPortal() {
+        professor = new Professor();
+        instructor = new Instructor();
+        student = new Student();
+        module = new Module();
+        lecture = new Lecture();
+        exercise = new Exercise();
+    }
 
     /**
      * Switch for add commands.
@@ -16,22 +31,22 @@ public class StudentPortal {
     public String add(String[] param) throws InputException {
         switch (param[0]) {
             case "add-professor":
-                return addProfessor();
+                return addProfessor(param);
 
             case "add-instructor":
-                return addInstructor();
+                return addInstructor(param);
 
             case "add-student":
-                return addStudent();
+                return addStudent(param);
 
             case "add-module":
-                return addModule();
+                return addModule(param);
 
             case "add-lecture":
-                return addLecture();
+                return addLecture(param);
 
             case "add-exercise":
-                return addExercise();
+                return addExercise(param);
 
             default:
                 throw new InputException("wrong input format!");
@@ -66,22 +81,22 @@ public class StudentPortal {
     public String summary(String[] param) throws InputException {
         switch (param[0]) {
             case "summary-professor":
-                return summProfessor();
+                return summProfessor(param);
 
             case "summary-instructor":
-                return summInstructor();
+                return summInstructor(param);
 
             case "summary-student":
-                return summStudent();
+                return summStudent(param);
 
             case "summary-module":
-                return summModule();
+                return summModule(param);
 
             case "summary-lecture":
-                return summLecture();
+                return summLecture(param);
 
             case "summary-exercise":
-                return summExercise();
+                return summExercise(param);
 
             default:
                 throw new InputException("wrong input!");
@@ -91,93 +106,93 @@ public class StudentPortal {
     public String examination(String[] param) throws InputException {
         switch (param[0]) {
             case "examination-competence":
-                return examCompetence();
+                return examCompetence(param);
 
             case "examination-marking":
-                return examMartking();
+                return examMarking(param);
 
             default:
                 throw new InputException("wrong input!");
         }
     }
 
-    private String addProfessor() {
-
+    private String addProfessor(String[] param) throws InputException {
+        return professor.addProf(param);
     }
 
     private String listProfessor() {
-
+        return professor.listProf();
     }
 
-    private String summProfessor() {
-
+    private String summProfessor(String[] param) {
+        return professor.summProf(param);
     }
 
-    private String addInstructor() {
-
+    private String addInstructor(String[] param) throws InputException {
+        return instructor.addInstr(param);
     }
 
     private String listInstructor() {
-
+        return instructor.listInstr();
     }
 
-    private String summInstructor() {
-
+    private String summInstructor(String[] param) {
+        return instructor.summInstr(param);
     }
 
-    private String addStudent() {
-
+    private String addStudent(String[] param) throws InputException {
+        return student.addStud(param);
     }
 
     private String listStudent() {
-
+        return student.listStud();
     }
 
-    private String summStudent() {
-
+    private String summStudent(String[] param) {
+        return student.summStud(param);
     }
 
-    private String addModule() {
-
+    private String addModule(String[] param) throws InputException {
+        return module.addModule(param);
     }
 
     private String listModule() {
-
+        return module.listModule();
     }
 
-    private String summModule() {
-
+    private String summModule(String[] param) {
+        return module.summModule(param);
     }
 
-    private String addLecture() {
-
+    private String addLecture(String[] param) throws InputException {
+        return lecture.addLecture(param);
     }
 
     private String listLecture() {
-
+        return lecture.listLecture();
     }
 
-    private String summLecture() {
-
+    private String summLecture(String[] param) {
+        return lecture.summLecture(param);
     }
 
-    private String addExercise() {
-
+    private String addExercise(String[] param) throws InputException {
+        return exercise.addExercise(param);
     }
 
     private String listExercise() {
-
+        return exercise.listExercise();
     }
 
-    private String summExercise() {
-
+    private String summExercise(String[] param) {
+        return exercise.summExercise(param);
     }
 
-    private String examCompetence() {
-
+    private String examCompetence(String[] param) {
+        return exam.examCompetence(param);
     }
 
-    private String examMartking() {
-
+    private String examMarking(String[] param) {
+        return exam.examMarking(param);
     }
 }
