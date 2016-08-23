@@ -1,4 +1,4 @@
-package final02;
+package assignment;
 
 import java.util.List;
 
@@ -37,6 +37,13 @@ public class Module {
         }
 
         output = output.trim();
+        return output;
+    }
+
+    public String summModule(String[] param) {
+        String output = "";
+
+
         return output;
     }
 

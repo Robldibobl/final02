@@ -1,4 +1,4 @@
-package final02;
+package assignment;
 
 import java.util.List;
 
@@ -35,5 +35,20 @@ public class Exercise {
         exercises.add(new Exercise(param[1], Integer.parseInt(param[2]), param[3], param[4], param[5]));
 
         return "OK";
+    }
+
+    public String listExercise() {
+        String output = "";
+
+
+        return output;
+    }
+
+    public String summExercise(String[] param) {
+        String output = "";
+
+
+
+        return output;
     }
 }

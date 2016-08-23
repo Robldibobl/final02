@@ -1,4 +1,4 @@
-package final02;
+package assignment;
 
 import edu.kit.informatik.Terminal;
 

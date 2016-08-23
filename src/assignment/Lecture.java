@@ -1,4 +1,4 @@
-package final02;
+package assignment;
 
 import java.util.List;
 
@@ -48,6 +48,13 @@ public class Lecture {
 
 
         output = output.trim();
+        return output;
+    }
+
+    public String summLecture(String[] param) {
+        String output = "";
+
+
         return output;
     }
 }

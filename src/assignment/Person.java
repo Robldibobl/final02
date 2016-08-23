@@ -1,4 +1,4 @@
-package final02;
+package assignment;
 
 /**
  * @author Robin Fritz
@@ -9,7 +9,7 @@ public abstract class Person {
     private String surname;
 
     /**
-     * Constructor of the abstract class final02.Person.
+     * Constructor of the abstract class assignment.Person.
      *
      * @param firstname Firstname of a person
      * @param surname   Surname of a person
@@ -20,7 +20,7 @@ public abstract class Person {
     }
 
     /**
-     * Empty constructor of the class final02.Person.
+     * Empty constructor of the class assignment.Person.
      */
     public Person() {
     }
