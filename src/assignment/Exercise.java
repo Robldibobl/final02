@@ -24,31 +24,4 @@ public class Exercise {
 
     public Exercise() {
     }
-
-    public String addExercise(String[] param) throws InputException {
-        Check.checkString(param[1]);
-        Check.checkInteger(param[2]);
-        Check.checkString(param[3]);
-        Check.checkString(param[4]);
-        Check.checkInteger(param[5]);
-
-        exercises.add(new Exercise(param[1], Integer.parseInt(param[2]), param[3], param[4], param[5]));
-
-        return "OK";
-    }
-
-    public String listExercise() {
-        String output = "";
-
-
-        return output;
-    }
-
-    public String summExercise(String[] param) {
-        String output = "";
-
-
-
-        return output;
-    }
 }

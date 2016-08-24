@@ -58,4 +58,17 @@ public class Check {
 
         return true;
     }
+
+    /**
+     * Checks length of parameter array.
+     *
+     * @param param Input
+     * @param n     Number of required parameters
+     * @throws InputException For input format type errors
+     */
+    public static void checkAmount(String[] param, int n) throws InputException {
+        if (param.length != n) {
+            throw new InputException("Error, wrong input format!");
+        }
+    }
 }

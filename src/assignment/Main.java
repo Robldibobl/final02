@@ -9,6 +9,11 @@ import edu.kit.informatik.Terminal;
 public class Main {
     private static boolean run = true;
 
+    /**
+     * Main method; splits input into commands and parameters.
+     *
+     * @param args Commandline parameters
+     */
     public static void main(String[] args) {
         StudentPortal studentPortal = new StudentPortal();
 
@@ -20,19 +25,20 @@ public class Main {
                     throw new InputException("wrong input format!");
                 }
 
-                String[] param = input.split(";");
+                String[] inputArr = input.split(" ");
+                String[] param = inputArr[1].split(";");
 
-                if (param[0].substring(0, 2).equals("add")) {
-                    Terminal.printLine(studentPortal.add(param));
-                } else if (param[0].substring(0, 3).equals("list")) {
+                if (inputArr[0].substring(0, 2).equals("add")) {
+                    Terminal.printLine(studentPortal.add(inputArr, param));
+                } else if (inputArr[0].substring(0, 3).equals("list")) {
                     Terminal.printLine(studentPortal.list(param));
-                } else if (param[0].substring(0, 6).equals("summary")) {
-                    Terminal.printLine(studentPortal.summary(param));
-                } else if (param[0].substring(0, 10).equals("examination")) {
-                    Terminal.printLine(studentPortal.examination(param));
-                } else if (param[0].equals("reset")) {
+                } else if (inputArr[0].substring(0, 6).equals("summary")) {
+                    Terminal.printLine(studentPortal.summary(inputArr, param));
+                } else if (inputArr[0].substring(0, 10).equals("examination")) {
+                    Terminal.printLine(studentPortal.examination(inputArr, param));
+                } else if (inputArr[0].equals("reset")) {
                     studentPortal = new StudentPortal();
-                } else if (param[0].equals("quit")) {
+                } else if (inputArr[0].equals("quit")) {
                     run = false;
                 } else {
                     throw new InputException("wrong input format");
