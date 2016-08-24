@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6be1537-0c51-48ac-b86a-ba5eb5359805" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Check.java" afterPath="$PROJECT_DIR$/src/assignment/Check.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Exercise.java" afterPath="$PROJECT_DIR$/src/assignment/Exercise.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Instructor.java" afterPath="$PROJECT_DIR$/src/assignment/Instructor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Lecture.java" afterPath="$PROJECT_DIR$/src/assignment/Lecture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Main.java" afterPath="$PROJECT_DIR$/src/assignment/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Module.java" afterPath="$PROJECT_DIR$/src/assignment/Module.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Professor.java" afterPath="$PROJECT_DIR$/src/assignment/Professor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assignment/Student.java" afterPath="$PROJECT_DIR$/src/assignment/Student.java" />
@@ -33,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StudentPortal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/StudentPortal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+            <state relative-caret-position="792">
+              <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#StudentPortal#0;class#StudentPortal#0" expanded="false" />
@@ -55,49 +42,53 @@
                 <element signature="docComment;method#list#0;class#StudentPortal#0" expanded="false" />
                 <element signature="docComment;method#summary#0;class#StudentPortal#0" expanded="false" />
                 <element signature="docComment;method#examination#0;class#StudentPortal#0" expanded="false" />
-                <element signature="e#4582#4583#0" expanded="true" />
-                <element signature="e#4626#4627#0" expanded="true" />
-                <element signature="e#4678#4679#0" expanded="true" />
-                <element signature="e#4726#4727#0" expanded="true" />
-                <element signature="e#5085#5086#0" expanded="true" />
-                <element signature="e#5130#5131#0" expanded="true" />
-                <element signature="e#5183#5184#0" expanded="true" />
-                <element signature="e#5233#5234#0" expanded="true" />
-                <element signature="e#5599#5600#0" expanded="true" />
-                <element signature="e#5640#5641#0" expanded="true" />
-                <element signature="e#5690#5691#0" expanded="true" />
-                <element signature="e#5736#5737#0" expanded="true" />
-                <element signature="e#5985#5986#0" expanded="true" />
-                <element signature="e#6027#6028#0" expanded="true" />
-                <element signature="e#6076#6077#0" expanded="true" />
-                <element signature="e#6123#6124#0" expanded="true" />
-                <element signature="e#6666#6667#0" expanded="true" />
-                <element signature="e#6710#6711#0" expanded="true" />
-                <element signature="e#6760#6761#0" expanded="true" />
-                <element signature="e#6809#6810#0" expanded="true" />
-                <element signature="e#7274#7275#0" expanded="true" />
-                <element signature="e#7320#7321#0" expanded="true" />
-                <element signature="e#7371#7372#0" expanded="true" />
-                <element signature="e#7422#7423#0" expanded="true" />
-                <element signature="e#7475#7476#0" expanded="true" />
-                <element signature="e#7524#7525#0" expanded="true" />
-                <element signature="e#7574#7575#0" expanded="true" />
-                <element signature="e#7620#7621#0" expanded="true" />
+                <element signature="e#5538#5539#0" expanded="true" />
+                <element signature="e#5586#5587#0" expanded="true" />
+                <element signature="e#6151#6152#0" expanded="true" />
+                <element signature="e#6201#6202#0" expanded="true" />
+                <element signature="e#7685#7686#0" expanded="true" />
+                <element signature="e#7731#7732#0" expanded="true" />
+                <element signature="e#8174#8175#0" expanded="true" />
+                <element signature="e#8221#8222#0" expanded="true" />
+                <element signature="e#8961#8962#0" expanded="true" />
+                <element signature="e#9010#9011#0" expanded="true" />
+                <element signature="e#9675#9676#0" expanded="true" />
+                <element signature="e#9726#9727#0" expanded="true" />
+                <element signature="e#9779#9780#0" expanded="true" />
+                <element signature="e#9828#9829#0" expanded="true" />
+                <element signature="e#9878#9879#0" expanded="true" />
+                <element signature="e#9924#9925#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Professor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Professor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/Professor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="724">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assignment/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding>
+                <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,9 +97,12 @@
       <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/Instructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="163">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,9 +110,12 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,19 +123,22 @@
       <file leaf-file-name="Module.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/Module.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="340">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lecture.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lecture.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignment/Lecture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="741">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +146,8 @@
       <file leaf-file-name="Exercise.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment/Exercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -166,7 +166,7 @@
       <file leaf-file-name="Check.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../final01/src/assignment/Check.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
+            <state relative-caret-position="1053">
               <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -219,13 +219,13 @@
         <option value="$PROJECT_DIR$/src/assignment/Check.java" />
         <option value="$PROJECT_DIR$/src/assignment/Main.java" />
         <option value="$PROJECT_DIR$/src/assignment/FileOperations.java" />
-        <option value="$PROJECT_DIR$/src/assignment/StudentPortal.java" />
-        <option value="$PROJECT_DIR$/src/assignment/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/assignment/Exercise.java" />
-        <option value="$PROJECT_DIR$/src/assignment/Module.java" />
-        <option value="$PROJECT_DIR$/src/assignment/Lecture.java" />
         <option value="$PROJECT_DIR$/src/assignment/Professor.java" />
+        <option value="$PROJECT_DIR$/src/assignment/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/assignment/StudentPortal.java" />
+        <option value="$PROJECT_DIR$/src/assignment/Module.java" />
+        <option value="$PROJECT_DIR$/src/assignment/Exercise.java" />
         <option value="$PROJECT_DIR$/src/assignment/Student.java" />
+        <option value="$PROJECT_DIR$/src/assignment/Lecture.java" />
       </list>
     </option>
   </component>
@@ -783,16 +783,16 @@
       <workItem from="1471880969754" duration="274000" />
       <workItem from="1471881352169" duration="636000" />
       <workItem from="1471964711818" duration="14523000" />
-      <workItem from="1472049058936" duration="4290000" />
+      <workItem from="1472049058936" duration="10648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20934000" />
+    <option name="totallyTimeSpent" value="27292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -806,7 +806,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29877368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -850,34 +850,22 @@
             <element signature="docComment;method#list#0;class#StudentPortal#0" expanded="false" />
             <element signature="docComment;method#summary#0;class#StudentPortal#0" expanded="false" />
             <element signature="docComment;method#examination#0;class#StudentPortal#0" expanded="false" />
-            <element signature="e#4582#4583#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4678#4679#0" expanded="true" />
-            <element signature="e#4726#4727#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5130#5131#0" expanded="true" />
-            <element signature="e#5183#5184#0" expanded="true" />
-            <element signature="e#5233#5234#0" expanded="true" />
-            <element signature="e#5599#5600#0" expanded="true" />
-            <element signature="e#5640#5641#0" expanded="true" />
-            <element signature="e#5690#5691#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5985#5986#0" expanded="true" />
-            <element signature="e#6027#6028#0" expanded="true" />
-            <element signature="e#6076#6077#0" expanded="true" />
-            <element signature="e#6123#6124#0" expanded="true" />
-            <element signature="e#6666#6667#0" expanded="true" />
-            <element signature="e#6710#6711#0" expanded="true" />
-            <element signature="e#6760#6761#0" expanded="true" />
-            <element signature="e#6809#6810#0" expanded="true" />
-            <element signature="e#7274#7275#0" expanded="true" />
-            <element signature="e#7320#7321#0" expanded="true" />
-            <element signature="e#7371#7372#0" expanded="true" />
-            <element signature="e#7422#7423#0" expanded="true" />
-            <element signature="e#7475#7476#0" expanded="true" />
-            <element signature="e#7524#7525#0" expanded="true" />
-            <element signature="e#7574#7575#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5586#5587#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6201#6202#0" expanded="true" />
+            <element signature="e#7685#7686#0" expanded="true" />
+            <element signature="e#7731#7732#0" expanded="true" />
+            <element signature="e#8174#8175#0" expanded="true" />
+            <element signature="e#8221#8222#0" expanded="true" />
+            <element signature="e#8961#8962#0" expanded="true" />
+            <element signature="e#9010#9011#0" expanded="true" />
+            <element signature="e#9675#9676#0" expanded="true" />
+            <element signature="e#9726#9727#0" expanded="true" />
+            <element signature="e#9779#9780#0" expanded="true" />
+            <element signature="e#9828#9829#0" expanded="true" />
+            <element signature="e#9878#9879#0" expanded="true" />
+            <element signature="e#9924#9925#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,7 +898,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="125" selection-start-line="37" selection-start-column="125" selection-end-line="37" selection-end-column="125" />
-          <folding />
+          <folding>
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -931,6 +922,8 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -939,7 +932,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,7 +963,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#627#628#0" expanded="true" />
             <element signature="e#661#662#0" expanded="false" />
             <element signature="e#691#692#0" expanded="false" />
           </folding>
@@ -978,7 +974,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,6 +990,8 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,10 +1001,10 @@
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1014,7 +1015,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#627#628#0" expanded="true" />
             <element signature="e#661#662#0" expanded="false" />
             <element signature="e#691#692#0" expanded="false" />
           </folding>
@@ -1025,7 +1026,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,6 +1042,8 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1047,10 +1053,10 @@
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,7 +1067,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#627#628#0" expanded="true" />
             <element signature="e#661#662#0" expanded="false" />
             <element signature="e#691#692#0" expanded="false" />
           </folding>
@@ -1072,7 +1078,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,6 +1094,8 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1094,10 +1105,10 @@
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1154,19 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/final02/Lists.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment/Check.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1176,36 +1174,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../final01/src/assignment/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../final01/src/assignment/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="7" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1218,30 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Module.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Lecture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment/FileOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1250,10 +1198,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../final01/src/assignment/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;method#Person#0;class#Person#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment/StudentPortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+        <state relative-caret-position="792">
+          <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#StudentPortal#0;class#StudentPortal#0" expanded="false" />
@@ -1261,47 +1265,52 @@
             <element signature="docComment;method#list#0;class#StudentPortal#0" expanded="false" />
             <element signature="docComment;method#summary#0;class#StudentPortal#0" expanded="false" />
             <element signature="docComment;method#examination#0;class#StudentPortal#0" expanded="false" />
-            <element signature="e#4582#4583#0" expanded="true" />
-            <element signature="e#4626#4627#0" expanded="true" />
-            <element signature="e#4678#4679#0" expanded="true" />
-            <element signature="e#4726#4727#0" expanded="true" />
-            <element signature="e#5085#5086#0" expanded="true" />
-            <element signature="e#5130#5131#0" expanded="true" />
-            <element signature="e#5183#5184#0" expanded="true" />
-            <element signature="e#5233#5234#0" expanded="true" />
-            <element signature="e#5599#5600#0" expanded="true" />
-            <element signature="e#5640#5641#0" expanded="true" />
-            <element signature="e#5690#5691#0" expanded="true" />
-            <element signature="e#5736#5737#0" expanded="true" />
-            <element signature="e#5985#5986#0" expanded="true" />
-            <element signature="e#6027#6028#0" expanded="true" />
-            <element signature="e#6076#6077#0" expanded="true" />
-            <element signature="e#6123#6124#0" expanded="true" />
-            <element signature="e#6666#6667#0" expanded="true" />
-            <element signature="e#6710#6711#0" expanded="true" />
-            <element signature="e#6760#6761#0" expanded="true" />
-            <element signature="e#6809#6810#0" expanded="true" />
-            <element signature="e#7274#7275#0" expanded="true" />
-            <element signature="e#7320#7321#0" expanded="true" />
-            <element signature="e#7371#7372#0" expanded="true" />
-            <element signature="e#7422#7423#0" expanded="true" />
-            <element signature="e#7475#7476#0" expanded="true" />
-            <element signature="e#7524#7525#0" expanded="true" />
-            <element signature="e#7574#7575#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5586#5587#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6201#6202#0" expanded="true" />
+            <element signature="e#7685#7686#0" expanded="true" />
+            <element signature="e#7731#7732#0" expanded="true" />
+            <element signature="e#8174#8175#0" expanded="true" />
+            <element signature="e#8221#8222#0" expanded="true" />
+            <element signature="e#8961#8962#0" expanded="true" />
+            <element signature="e#9010#9011#0" expanded="true" />
+            <element signature="e#9675#9676#0" expanded="true" />
+            <element signature="e#9726#9727#0" expanded="true" />
+            <element signature="e#9779#9780#0" expanded="true" />
+            <element signature="e#9828#9829#0" expanded="true" />
+            <element signature="e#9878#9879#0" expanded="true" />
+            <element signature="e#9924#9925#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment/Professor.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment/Lecture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>

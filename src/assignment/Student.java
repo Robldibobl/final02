@@ -8,8 +8,8 @@ import java.util.List;
  */
 public class Student extends Person {
     private int matrikelNumber;
-
     private int average;
+    private List<Exercise> examCompetence;
 
     public Student(String firstname, String surname, int matrikelNumber) {
         super(firstname, surname);
@@ -25,5 +25,10 @@ public class Student extends Person {
 
     public int getAverage() {
         return average;
+    }
+
+    @Override
+    public String toString() {
+        return matrikelNumber + " " + getFirstname() + " " + getSurname() + " " + average;
     }
 }

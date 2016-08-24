@@ -1,5 +1,7 @@
 package assignment;
 
+import edu.kit.informatik.Terminal;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -152,12 +154,35 @@ public class StudentPortal {
         Check.checkString(param[0]);
         Check.checkString(param[1]);
         Check.checkString(param[2]);
-        professors.add(new Professor(param[0], param[1], param[2]));
-        return "OK";
+
+        Professor newProf = new Professor(param[0], param[1], param[2]);
+
+        for (int i = 0; i < professors.size(); i++) {
+            if (i == professors.size() - 1 && professors.get(i).isSmaller(newProf)) {
+                professors.add(newProf);
+                return "OK";
+            }
+            if (!professors.get(i).isSmaller(newProf)) {
+                List<Professor> temp = new ArrayList<>();
+                for (int j = i; j < professors.size(); j++) {
+                    temp.add(professors.get(j));
+                }
+                professors.add(i, newProf);
+                for (int j = i + 1; j < professors.size() + 1; j++) {
+                    professors.add(j, temp.get(j - i + 1));
+                }
+                return "OK";
+            }
+        }
+        return "";
     }
 
     private String listProfessor() {
-        return professors.listProf();
+        String output = "";
+        for (Professor val : professors) {
+           output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summProfessor(String[] param) {
@@ -174,7 +199,11 @@ public class StudentPortal {
     }
 
     private String listInstructor() {
-        return instructor.listInstr();
+        String output = "";
+        for (Instructor val : instructors) {
+            output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summInstructor(String[] param) {
@@ -186,12 +215,38 @@ public class StudentPortal {
         Check.checkString(param[1]);
         Check.checkString(param[2]);
         Check.checkInteger(param[3]);
-        students.add(new Student(param[1], param[2], Integer.parseInt(param[3])));
-        return "OK";
+
+        Student newStud = new Student(param[0], param[1], Integer.parseInt(param[2]));
+
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).getMatrikelNumber() == newStud.getMatrikelNumber()) {
+                throw new InputException("wrong input format!");
+            }
+            if (i == students.size() - 1 && students.get(i).getMatrikelNumber() < newStud.getMatrikelNumber()) {
+                students.add(newStud);
+                return "OK";
+            }
+            if (students.get(i).getMatrikelNumber() > newStud.getMatrikelNumber()) {
+                List<Student> temp = new ArrayList<>();
+                for (int j = i; j < students.size(); j++) {
+                    temp.add(students.get(j));
+                }
+                students.add(i, newStud);
+                for (int j = i + 1; j < students.size() + 1; j++) {
+                    students.add(j, temp.get(j - i + 1));
+                }
+                return "OK";
+            }
+        }
+        return "";
     }
 
     private String listStudent() {
-        return student.listStud();
+        String output = "";
+        for (Student val : students) {
+            output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summStudent(String[] param) {
@@ -206,7 +261,11 @@ public class StudentPortal {
     }
 
     private String listModule() {
-        return module.listModule();
+        String output = "";
+        for (Module val : modules) {
+            output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summModule(String[] param) {
@@ -227,7 +286,11 @@ public class StudentPortal {
     }
 
     private String listLecture() {
-        return lecture.listLecture();
+        String output = "";
+        for (Lecture val : lectures) {
+            output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summLecture(String[] param) {
@@ -246,7 +309,11 @@ public class StudentPortal {
     }
 
     private String listExercise() {
-        return exercise.listExercise();
+        String output = "";
+        for (Exercise val : exercises) {
+            output += val + "\n";
+        }
+        return output.trim();
     }
 
     private String summExercise(String[] param) {
