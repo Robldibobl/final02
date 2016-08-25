@@ -6,9 +6,7 @@ import java.util.List;
  * @author Robin Fritz
  * @version 1.0
  */
-public class Lecture {
-    private static int idCount = 0;
-
+public class Lecture extends Studies {
     private String name;
     private int moduleId;
     private String firstnameProf;
@@ -18,7 +16,7 @@ public class Lecture {
 
     private List<Student> lectureStudents;
     private Exercise exercise;
-    private double lectureAverage; //default "none"
+    private double lectureAverage;
     private int id;
     private String outputAverage;
 
@@ -39,7 +37,7 @@ public class Lecture {
         this.surnameProf = surnameProf;
         this.chairProf = chairProf;
         this.credits = credits;
-        id = ++idCount;
+        id = getIdCount();
         lectureAverage = 0;
         outputAverage();
     }
@@ -49,6 +47,8 @@ public class Lecture {
     }
 
     private void outputAverage() {
+        outputAverage = "none";
+
         if (lectureAverage != 0) {
             outputAverage = "" + lectureAverage;
         }

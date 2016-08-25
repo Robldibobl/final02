@@ -6,8 +6,7 @@ import java.util.List;
  * @author Robin Fritz
  * @version 1.0
  */
-public class Exercise {
-    private static int idCount = 0;
+public class Exercise extends Studies {
     private String name;
     private int lectureId;
     private int moduleId;
@@ -35,7 +34,7 @@ public class Exercise {
         this.firstnameInstr = firstnameInstr;
         this.surnameInstr = surnameInstr;
         this.chairInstr = chairInstr;
-        id = ++idCount;
+        id = getIdCount();
     }
 
     @Override

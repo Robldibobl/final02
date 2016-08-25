@@ -199,7 +199,7 @@ public class StudentPortal {
 
         for (int i = 0; i < professors.size(); i++) {
             Professor prof = professors.get(i);
-            if (prof.equals(temp)) {
+            if (prof.isEqual(temp)) {
                 if (prof.getProfessorLectures().size() != 0) {
                     for (int j = 0; j < prof.getProfessorLectures().size(); j++) {
                         Lecture lect = prof.getProfessorLectures().get(j);
@@ -313,8 +313,23 @@ public class StudentPortal {
         Check.checkString(param[3]);
         Check.checkString(param[4]);
         Check.checkInteger(param[5]);
-        lectures.add(new Lecture(param[0], Integer.parseInt(param[1]), param[2], param[3], param[4], Integer.parseInt(
-                param[5])));
+        Lecture newLecture = new Lecture(param[0], Integer.parseInt(param[1]), param[2], param[3], param[4], Integer
+                .parseInt(
+                        param[5]));
+
+        lectures.add(newLecture);
+
+        if (professors.size() != 0) {
+            for (Professor val : professors) {
+                Professor temp = new Professor(param[2], param[3], param[4]);
+                if (temp.isEqual(val)) {
+                    val.getProfessorLectures().add(newLecture);
+                }
+            }
+        } else {
+            throw new InputException("wrong input!");
+        }
+
         return "OK";
     }
 

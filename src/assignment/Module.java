@@ -6,8 +6,7 @@ import java.util.List;
  * @author Robin Fritz
  * @version 1.0
  */
-public class Module {
-    private static int idCount = 0;
+public class Module extends Studies {
     private String name;
     private List<Lecture> moduleLectures = null;
     private double moduleAverage;
@@ -21,7 +20,7 @@ public class Module {
      */
     public Module(String name) {
         this.name = name;
-        id = ++idCount;
+        id = getIdCount();
         average();
     }
 

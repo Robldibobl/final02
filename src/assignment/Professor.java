@@ -1,5 +1,6 @@
 package assignment;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,6 +23,8 @@ public class Professor extends Person {
     public Professor(String firstname, String surname, String chair) {
         super(firstname, surname);
         this.chair = chair;
+        professorLectures = new ArrayList<>();
+        average = 0;
         average();
     }
 
@@ -77,8 +80,24 @@ public class Professor extends Person {
         return professorLectures;
     }
 
+    /**
+     * Modified .equals method.
+     *
+     * @param anotherProfessor Professor to compare the first one to
+     * @return Returns true or false
+     */
+    public boolean isEqual(Professor anotherProfessor) {
+        if (this.getFirstname().equals(anotherProfessor.getFirstname()) && this.getSurname().equals(anotherProfessor
+                .getSurname()) && this.getChair().equals(anotherProfessor.getChair())) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     @Override
     public String toString() {
         return chair + " " + getFirstname() + " " + getSurname() + " " + outputAverage;
     }
+
 }
