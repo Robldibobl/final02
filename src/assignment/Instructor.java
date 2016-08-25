@@ -1,23 +1,31 @@
 package assignment;
 
-import java.util.List;
-
 /**
  * @author Robin Fritz
  * @version 1.0
  */
 public class Instructor extends Person {
     private String chair;
-    private int exercises;
+    private int exerciseCount;
 
+    /**
+     * Constructor of the class Instructor.
+     *
+     * @param firstname Firstname of a instructor
+     * @param surname   Surname of a instructor
+     * @param chair     Chair of a instructor
+     */
     public Instructor(String firstname, String surname, String chair) {
         super(firstname, surname);
         this.chair = chair;
     }
 
-    public Instructor() {
-    }
-
+    /**
+     * Compares two instructors and returns true, if the first one is smaller, else false.
+     *
+     * @param otherInstructor Another instructor to compare the first one to
+     * @return True or false
+     */
     public boolean isSmaller(Instructor otherInstructor) {
         if (this.getFirstname().compareTo(otherInstructor.getFirstname()) < 0) {
             return true;
@@ -38,16 +46,17 @@ public class Instructor extends Person {
         }
     }
 
+    /**
+     * Getter for chair.
+     *
+     * @return Returns chair
+     */
     public String getChair() {
         return chair;
     }
 
-    public int getExercises() {
-        return exercises;
-    }
-
     @Override
     public String toString() {
-        return chair + " " + getFirstname() + " " + getSurname() + " " + exercises;
+        return chair + " " + getFirstname() + " " + getSurname() + " " + exerciseCount;
     }
 }

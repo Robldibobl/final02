@@ -26,22 +26,24 @@ public class Main {
                 }
 
                 String[] inputArr = input.split(" ");
-                String[] param = inputArr[1].split(";");
-
-                if (inputArr[0].substring(0, 2).equals("add")) {
+                String[] param = null;
+                if (inputArr.length > 1) {
+                    param = inputArr[1].split(";");
+                }
+                if (inputArr[0].contains("add")) {
                     Terminal.printLine(studentPortal.add(inputArr, param));
-                } else if (inputArr[0].substring(0, 3).equals("list")) {
-                    Terminal.printLine(studentPortal.list(param));
-                } else if (inputArr[0].substring(0, 6).equals("summary")) {
+                } else if (inputArr[0].contains("list")) {
+                    Terminal.printLine(studentPortal.list(inputArr));
+                } else if (inputArr[0].contains("summary")) {
                     Terminal.printLine(studentPortal.summary(inputArr, param));
-                } else if (inputArr[0].substring(0, 10).equals("examination")) {
+                } else if (inputArr[0].contains("examination")) {
                     Terminal.printLine(studentPortal.examination(inputArr, param));
                 } else if (inputArr[0].equals("reset")) {
                     studentPortal = new StudentPortal();
                 } else if (inputArr[0].equals("quit")) {
                     run = false;
                 } else {
-                    throw new InputException("wrong input format");
+                    throw new InputException("wrong input format1");
                 }
 
             } catch (InputException e) {

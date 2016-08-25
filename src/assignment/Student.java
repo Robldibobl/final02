@@ -7,28 +7,37 @@ import java.util.List;
  * @version 1.0
  */
 public class Student extends Person {
-    private int matrikelNumber;
-    private int average;
     private List<Exercise> examCompetence;
+    private int matriculationNumber;
+    private int average;
 
+    /**
+     * Constructor of the class Student.
+     *
+     * @param firstname      Firstname of a student
+     * @param surname        Surname of a student
+     * @param matrikelNumber Matrikel
+     */
     public Student(String firstname, String surname, int matrikelNumber) {
         super(firstname, surname);
-        this.matrikelNumber = matrikelNumber;
+        this.matriculationNumber = matrikelNumber;
     }
 
-    public Student() {
+    private void calcAverage() {
+
     }
 
-    public int getMatrikelNumber() {
-        return matrikelNumber;
-    }
-
-    public int getAverage() {
-        return average;
+    /**
+     * Getter for matriculationNumber.
+     *
+     * @return Returns matriculationNumber
+     */
+    public int getMatriculationNumber() {
+        return matriculationNumber;
     }
 
     @Override
     public String toString() {
-        return matrikelNumber + " " + getFirstname() + " " + getSurname() + " " + average;
+        return matriculationNumber + " " + getFirstname() + " " + getSurname() + " " + average;
     }
 }

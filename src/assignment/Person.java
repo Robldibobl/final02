@@ -25,10 +25,20 @@ public abstract class Person {
     public Person() {
     }
 
+    /**
+     * Getter for firstname.
+     *
+     * @return Returns firstname
+     */
     public String getFirstname() {
         return firstname;
     }
 
+    /**
+     * Getter for surname.
+     *
+     * @return Returns surname
+     */
     public String getSurname() {
         return surname;
     }

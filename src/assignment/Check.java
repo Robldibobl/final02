@@ -16,7 +16,7 @@ public class Check {
      * @throws InputException For input format type errors
      */
     public static void checkInteger(String input) throws InputException {
-        if (input.matches("\\d*")) {
+        if (!input.matches("\\d*")) {
             throw new InputException("please choose a positive number!");
         }
     }
@@ -37,7 +37,7 @@ public class Check {
         boolean b = m.find();
 
         if (input.equals("")) {
-            throw new InputException("Error, strings can not be empty!");
+            throw new InputException("strings can not be empty!");
         }
 
         if (temp.equals(input)) {
@@ -45,7 +45,7 @@ public class Check {
                 temp = temp.replaceAll("\\W", "");
 
                 if (!temp.equals(input)) {
-                    throw new InputException("Error, game mode names only contain letters!");
+                    throw new InputException("game mode names only contain letters!");
                 } else {
                     return true;
                 }
@@ -53,7 +53,7 @@ public class Check {
                 return true;
             }
         } else if (!b) {
-            throw new InputException("Error, wrong input format!");
+            throw new InputException("wrong input format!");
         }
 
         return true;
@@ -67,8 +67,11 @@ public class Check {
      * @throws InputException For input format type errors
      */
     public static void checkAmount(String[] param, int n) throws InputException {
+        if (param == null) {
+            throw new InputException("wrong input format!");
+        }
         if (param.length != n) {
-            throw new InputException("Error, wrong input format!");
+            throw new InputException("wrong input format!");
         }
     }
 }

@@ -20,6 +20,15 @@ public class Exercise {
     private int id;
     private List<Student> examCompetence;
 
+    /**
+     * Constructor of the class Exercise.
+     *
+     * @param name           Name of the exercise
+     * @param lectureId      Lecture id of the exercise
+     * @param firstnameInstr Firstname of the instructor
+     * @param surnameInstr   Surname of the instructor
+     * @param chairInstr     Chair of the instructor
+     */
     public Exercise(String name, int lectureId, String firstnameInstr, String surnameInstr, String chairInstr) {
         this.name = name;
         this.lectureId = lectureId;
@@ -27,9 +36,6 @@ public class Exercise {
         this.surnameInstr = surnameInstr;
         this.chairInstr = chairInstr;
         id = ++idCount;
-    }
-
-    public Exercise() {
     }
 
     @Override
